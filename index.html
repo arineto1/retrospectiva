@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        #div1{
+            width: 500px;
+            height: 500px;
+            font-size: 100px;
+            border: solid 5px black;
+            /* /* overflow: hidden; */
+            overflow: scroll; 
+            /* overflow-y: scroll;
+            overflow-x: hidden; */
+        }
+        #titulo{
+            text-align: center;
+            font-size: 30px;
+            color:brown;
+            font-weight: bold;
+            background-color: antiquewhite;
+            border: solid 5px black;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="titulo">
+        <h1>Loja da Etec</h1>
+    </div>
+    <div id="div1">
+        Tudo funciona Muito Bem em CSS
+        Texto Muito Grande Para Caber Na Caixa
+        Já pensou qual comportamento Padrão?
+    </div>
+</body>
+</html>
